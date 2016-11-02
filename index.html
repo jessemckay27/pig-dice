@@ -8,6 +8,28 @@
     <title>Pig Dice</title>
   </head>
   <body>
-    
+    <div class="container">
+      <div id="user-wrap" class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <form id="user-name" class="form-group">
+            <label>Please enter player <span>1</span> name</label>
+            <input class="form-control" type="text">
+            <button class="btn btn-default" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div id="box-holder" class="row">
+        <div id="playeri" class="box col-md-8 col-md-offset-2">
+          <h2>Jesse</h2>
+          <div class="current-score">0</div>
+          <div class="turn-score">0</div>
+          <div class="dice-holder"><!-- <img src="" alt="" /> --></div>
+          <button class="roll-button" type="button">Roll</button>
+          <button class="end-turn" type="button">End Turn</button>
+
+        </div>
+      </div>
+    </div>
   </body>
 </html>

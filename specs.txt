@@ -1,0 +1,24 @@
+create a form with a text input
+  pass player name into object constructor
+  constructor object holds name and current score (starting at 0)
+  on submit updates the label for the form for player 2
+start game button or start over
+  start game starts the game
+  start over button restarts character creation
+fade out user  creation
+
+player boxes fade in side by side. each box has player name and current score and total score
+  each box has button for roll dice and save
+  roll dice rolls the dice and adds to score
+
+
+  function player(userName) {
+    this.userName = userName;
+    this.score = 0;
+    this.playing = 0;
+  }
+
+  var playersArray = [];
+
+  var player = new player(userName);
+  playersArray.push(player);
